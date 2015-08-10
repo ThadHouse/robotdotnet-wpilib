@@ -14,6 +14,7 @@ namespace HAL_Simulator
         public static uint GetFPGATime()
         {//TODO: Implement
             return (uint)((DateTime.Now.Ticks - SimData.halData["time"]["program_start"]) / 10);
+            //Testing
         }
 
         public static uint GetTime()
